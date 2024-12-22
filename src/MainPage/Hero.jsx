@@ -21,14 +21,15 @@ function Hero() {
           className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-wide mb-7 italic text-white"
           style={{ textShadow: "7px 7px 1px rgba(38,89,115)" }}
         >
-          <span className="block text-white">$MEMCO Future</span> OF Meme Coins
+          <span className="block text-white">$MARs Future</span> of Meme Wealth
         </h1>
 
         {/* Subheading */}
         <p className="text-xl sm:text-2xl text-white mb-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eveniet
-          dolorem blanditiis ad perferendis, labore delectus dolor sit amet,
-          adipisicing elit. Eveniet ipsum dolor sit amet.
+          As digital reserves gain momentum, $MARs unites the meme coin
+          ecosystem into one powerful token. Backed by top meme assets, $MARs is
+          more than just currency—it’s the central bank of memes, where wealth
+          meets culture. Join the movement.
         </p>
 
         {/* Buttons */}
