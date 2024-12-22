@@ -57,15 +57,14 @@ function Address() {
             className="text-base md:text-lg font-extrabold tracking-wide mb-4 text-white"
             style={{ textShadow: "2px 2px 8px rgba(40, 204, 139)" }}
           >
-            About Our Trading Platform
+            About $MARs
           </p>
 
           <h1
             className="text-2xl md:text-4xl font-extrabold tracking-wide mb-7 italic text-white"
             style={{ textShadow: "7px 7px 1px rgba(38,89,115)" }}
           >
-            <span className="block text-white">Decentralized Crypto</span>{" "}
-            Trading Platform
+            <span className="block text-white">Meme Asset </span> Reserve
           </h1>
 
           <p className="text-base md:text-2xl mb-8 text-[#7d8180]">
