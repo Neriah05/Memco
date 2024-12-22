@@ -11,6 +11,64 @@ function Address() {
     setTimeout(() => setCopied(false), 2000); // Reset the copied state after 2 seconds
   };
 
+  const steps = [
+    {
+      step: 1,
+      title: "Get Some SOL",
+      content:
+        "If you don’t have any SOL, you can buy directly on Phantom, transfer from another wallet, or buy on another exchange and send it to your wallet.",
+      image: "/1.png",
+    },
+    {
+      step: 2,
+      title: (
+        <>
+          "Go To{" "}
+          <a
+            href="https://raydium.io"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#09BE8B] underline hover:text-[#FB4E4E]"
+          >
+            {" "}
+            Raydium.io
+          </a>
+        </>
+      ),
+      content: (
+        <>
+          Now that you have some Solana, head to{" "}
+          <a
+            href="https://raydium.io"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#09BE8B] underline hover:text-[#FB4E4E]"
+          >
+            Raydium.io
+          </a>{" "}
+          (or{" "}
+          <a
+            href="https://jup.ag"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#09BE8B] underline hover:text-[#FB4E4E]"
+          >
+            Jup.ag
+          </a>{" "}
+          if you prefer) to be able to swap your $SOL for some $PNUT.
+        </>
+      ),
+      image: "/2.png",
+    },
+    {
+      step: 3,
+      title: "Buy $MARs",
+      content:
+        "Paste the token address (CA) into Raydium and switch SOL for $MARs. There’s zero taxes so you don’t need to worry.",
+      image: "/3.png",
+    },
+  ];
+
   return (
     <section className="bg-[#020a04] p-6 md:p-14 lg:p-28">
       <div className="bg-[#0d2615] border-2 border-white text-white p-4 md:p-6 rounded-lg shadow-md flex flex-col md:flex-row max-w-full md:max-w-[750px] gap-4 relative mb-14 md:mb-28">
@@ -39,7 +97,7 @@ function Address() {
         />
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-between gap-6 max-sm:mb-9">
+      <div className="flex flex-col lg:flex-row justify-between mb-14 gap-6 max-sm:mb-9">
         <div className="flex justify-center">
           <img
             src="/about.png"
@@ -68,11 +126,16 @@ function Address() {
           </h1>
 
           <p className="text-base md:text-2xl mb-8 text-[#7d8180]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-            dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit
-            amet convallis nunc scelerisque in. Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Suscipit ipsa ut quasi adipisci
-            voluptates, voluptatibus. Read More
+            The world is shifting to digital reserves, and $MARs is leading the
+            way. Just like nations and corporations are embracing Bitcoin, $MARs
+            unites the meme coin universe into a single, powerful token. Backed
+            by a treasury of top meme assets, $MARs is more than just
+            currency—it’s a cultural revolution. <br /> <br /> Think of $MARs as
+            the central bank of memes, where your holdings represent both
+            financial strength and cultural influence. In a world where wealth
+            is a meme, $MARs stands as the king—empowering communities,
+            decentralizing value, and uniting the digital world. Join the
+            movement.
           </p>
 
           <button className="bg-[#ccffb5] text-[#0d142f] text-sm md:text-xl font-semibold py-3 px-6 md:py-3.5 md:px-8 rounded-lg hover:bg-[#a5df8a] transition">
@@ -93,46 +156,34 @@ function Address() {
           className="text-2xl md:text-4xl font-extrabold tracking-wide mb-7 italic text-white"
           style={{ textShadow: "7px 7px 1px rgba(38,89,115)" }}
         >
-          How To Buy Tokens?
+          How to buy $MARs
         </h1>
+      </div>
 
-        <p className="text-sm md:text-lg text-[#7d8180] font-semibold mb-10 md:mb-14">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at{" "}
-          <br className="hidden md:block" /> dictum risus, non suscipit arcu.
-          Quisque aliquam posuere <br className="hidden md:block" /> tortor, sit
-          amet convallis nunc scelerisque in.
-        </p>
-
-        <div className="flex flex-col md:flex-row justify-center gap-6 p-0 md:p-6 text-white">
-          {[1, 2, 3].map((step, index) => (
-            <div
-              key={index}
-              className="bg-gray-800 rounded-lg p-6 md:p-10 shadow-lg flex flex-col items-center text-center w-full md:w-80 relative"
-            >
-              <div className="relative mb-6 md:mb-8 bg-[#2d3748] max-h-24 w-44 md:w-60">
-                <img
-                  src={`/${step}.png`}
-                  alt=""
-                  className="w-36 md:w-48 h-30 -translate-y-16 md:-translate-y-20 mx-auto"
-                />
-                <div className="absolute top-0 right-0 transform translate-y-[-10%] translate-x-1 w-10 md:w-12 h-10 md:h-12 bg-[#09BE8B] rounded-full flex items-center justify-center text-base md:text-xl font-bold text-black z-10">
-                  {step}
-                </div>
+      <div className="flex flex-col md:flex-row justify-center gap-6 p-0 md:p-6 text-white mb-20">
+        {steps.map(({ step, title, content, image }, index) => (
+          <div
+            key={index}
+            className="bg-gray-800 rounded-lg p-6 md:p-10 shadow-lg flex flex-col items-center text-center w-full md:w-80 relative"
+          >
+            <div className="relative mb-6 md:mb-8 bg-[#2d3748] max-h-24 w-44 md:w-60">
+              <img
+                src={image}
+                alt=""
+                className="w-36 md:w-48 h-30 -translate-y-16 md:-translate-y-20 mx-auto"
+              />
+              <div className="absolute top-0 right-0 transform translate-y-[-10%] translate-x-1 w-10 md:w-12 h-10 md:h-12 bg-[#09BE8B] rounded-full flex items-center justify-center text-base md:text-xl font-bold text-black z-10">
+                {step}
               </div>
-              <h3 className="text-base md:text-xl font-bold mb-2 italic ">
-                {index === 0
-                  ? "Register New Account"
-                  : index === 1
-                  ? "Setup Account Info"
-                  : "Start Buying & Selling"}
-              </h3>
-              <p className="text-sm md:text-lg font-semibold text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                neque quam, maximus ut accumsan ut, posuere sit.
-              </p>
             </div>
-          ))}
-        </div>
+            <h3 className="text-base md:text-xl font-bold mb-2 italic">
+              {title}
+            </h3>
+            <p className="text-sm md:text-lg font-semibold text-gray-400">
+              {content}
+            </p>
+          </div>
+        ))}
       </div>
 
       <div className="relative bg-gradient-to-r from-[#03452c] to-[#1b6051] p-6 md:p-14 mx-4 md:mx-28 max-w-4xl rounded-lg shadow-md flex flex-col md:flex-row gap-6 items-center ml-auto mr-auto mb-12 md:mb-28">
