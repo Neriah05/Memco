@@ -43,14 +43,14 @@ function About() {
             className="text-lg font-extrabold tracking-wide mb-4 text-white text-center"
             style={{ textShadow: "2px 2px 8px rgba(40, 204, 139)" }}
           >
-            About Our Token
+            About Meme Asset Reserve
           </p>
 
           <h1
             className="text-4xl font-extrabold tracking-wide mb-7 italic text-white text-center"
             style={{ textShadow: "7px 7px 1px rgba(38,89,115)" }}
           >
-            Our Token Info
+            $MARs Info
           </h1>
 
           <p className="text-lg text-[#7d8180] font-semibold mb-4 text-center">

@@ -3,28 +3,40 @@ function IcoRoadmap() {
     {
       date: "Phase 1",
       title: "Meme Domination",
-      description:
-        "Launch and establish $MARs as the central reserve for meme wealth.Secure treasury assets (top meme coins).Engage community with MemeDAO governance.",
+      description: [
+        "Launch and establish $MARs as the central reserve for meme wealth.",
+        "Secure treasury assets (top meme coins).",
+        "Engage community with MemeDAO governance.",
+      ],
     },
     {
       date: "Phase 2",
       title: "Growth & Utility",
-      description:
-        "Roll out staking utility with yield farming.Introduce periodic buyback and burn mechanisms.Launch play-to-earn (P2E) game.",
+      description: [
+        "Roll out staking utility with yield farming.",
+        "Introduce periodic buyback and burn mechanisms.",
+        "Launch play-to-earn (P2E) game.",
+      ],
     },
     {
       date: "Phase 3",
       title: "Expansion",
-      description:
-        "Acquire additional meme coins for treasury.Distribute airdrops to reward early adopters.Launch exclusive merch store.",
+      description: [
+        "Acquire additional meme coins for treasury.",
+        "Distribute airdrops to reward early adopters.",
+        "Launch exclusive merch store.",
+      ],
     },
     {
       date: "Phase 4",
       title: "Global Adoption",
-      description:
-        "Partner with crypto whales, exchanges, and even government agencies.Push $MARs as a universal reserve for memes.",
+      description: [
+        "Partner with crypto whales, exchanges, and even government agencies.",
+        "Push $MARs as a universal reserve for memes.",
+      ],
     },
   ];
+
   return (
     <div className="max-md:mb-60">
       <div className="text-center">
@@ -44,7 +56,6 @@ function IcoRoadmap() {
           investors and users.
         </p>
       </div>
-      return (
       <div className="bg-gray-900 text-white py-10">
         <div className="max-w-4xl mx-auto px-4">
           <div className="relative border-l-4 border-green-500">
@@ -59,13 +70,16 @@ function IcoRoadmap() {
                   </span>
                 </div>
                 <h3 className="text-xl font-bold mb-2">{event.title}</h3>
-                <p className="text-gray-300">{event.description}</p>
+                <ul className="list-disc list-inside mt-3 text-gray-300">
+                  {event.description.map((item, idx) => (
+                    <li key={idx}>{item}</li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
         </div>
       </div>
-      );
     </div>
   );
 }
