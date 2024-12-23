@@ -106,9 +106,11 @@ function Nav() {
 
         {/* Contact Us Button */}
         <div className="hidden md:block flex-shrink-0">
-          <button className="bg-[#09BE8B] hover:bg-[#FB4E4E] text-white px-6 py-2 rounded-lg">
-            Buy $MARs
-          </button>
+          <a href="https://dexscreener.com/solana/5zvpqvfkdjjss3aftrxylm2vnzfj2xazux9knpw8aeem">
+            <button className="bg-[#09BE8B] hover:bg-[#FB4E4E] text-white px-6 py-2 rounded-lg">
+              Buy $MARs
+            </button>
+          </a>
         </div>
       </div>
     </nav>
