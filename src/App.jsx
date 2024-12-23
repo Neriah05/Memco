@@ -7,7 +7,7 @@ import WhitePaper from "./MainPage/WhitePaper";
 import Faq from "./MainPage/Faq";
 // import OurTeam from "./MainPage/OurTeam";
 import Subscribe from "./MainPage/Subscribe";
-import ContactUs from "./MainPage/ContactUs";
+// import ContactUs from "./MainPage/ContactUs";
 import Footer from "./MainPage/Footer";
 export default function App() {
   return (
@@ -44,9 +44,9 @@ function WebPage() {
       <section>
         <Subscribe />
       </section>
-      <section>
+      {/* <section>
         <ContactUs />
-      </section>
+      </section> */}
       <section>
         <Footer />
       </section>

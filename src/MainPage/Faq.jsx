@@ -40,12 +40,6 @@ function Faq() {
         <h1 className="text-4xl font-extrabold tracking-wide mb-7 italic text-white">
           Frequently Asked Questions
         </h1>
-
-        <p className="text-lg text-[#7d8180] font-semibold mb-14">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at{" "}
-          <br />
-          dictum risus, non suscipit arcu.
-        </p>
       </div>
 
       <div className=" text-white py-10">

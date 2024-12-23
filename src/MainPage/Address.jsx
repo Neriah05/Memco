@@ -186,66 +186,6 @@ function Address() {
         ))}
       </div>
 
-      <div className="relative bg-gradient-to-r from-[#03452c] to-[#1b6051] p-6 md:p-14 mx-4 md:mx-28 max-w-4xl rounded-lg shadow-md flex flex-col md:flex-row gap-6 items-center ml-auto mr-auto mb-12 md:mb-28">
-        {/* Frog Image */}
-        <img
-          src="/hello.png"
-          alt="Frog Illustration"
-          className="absolute -left-10 md:-left-40 w-20 md:w-32 lg:w-40 h-auto hidden md:block"
-        />
-
-        {/* Token Sale Countdown */}
-        <div className="bg-[#1e2738] rounded-lg shadow-lg text-center py-6 px-5 text-white flex-1 gap-3">
-          <h2 className="font-bold text-lg mb-6 md:mb-8">TOKEN SALE ENDS IN</h2>
-          <div className="grid grid-cols-4 gap-2 md:gap-0.5">
-            {/* Countdown Units */}
-            {["324", "19", "41", "00"].map((value, index) => (
-              <div key={index} className="flex flex-col items-center">
-                <span className="text-[#ffffff] bg-[#09BE8B] font-medium text-xl md:text-3xl p-3 md:p-5">
-                  {value}
-                </span>
-                <span className="text-xs md:text-sm mt-1 md:mt-2">
-                  {["days", "hours", "minutes", "seconds"][index]}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Sale Information */}
-        <div className="text-white flex-1">
-          {/* Progress Bar */}
-          <div className="mb-4 md:mb-6">
-            <div className="flex justify-between text-xs md:text-sm mb-2">
-              <span>33m</span>
-              <span>75m</span>
-            </div>
-            <div className="h-2 w-full bg-gray-600 rounded-full relative">
-              <div
-                className="bg-[#FB4E4E] h-2 rounded-full"
-                style={{ width: "40%" }}
-              ></div>
-            </div>
-            <p className="text-xs md:text-sm mt-2">Softcap in 103 days</p>
-          </div>
-
-          {/* Sale Details */}
-          <p className="text-sm md:text-lg mb-3 md:mb-4 font-bold">
-            Pre-Sale 1 ETH = 8,000 Token
-          </p>
-
-          {/* Payment Options */}
-          <div className="flex items-center gap-3 mb-3 md:mb-4">
-            <img src="/payment.png" alt="" />
-          </div>
-
-          {/* Buy Button */}
-          <button className="bg-[#09BE8B] hover:bg-[#FB4E4E] border border-white transition-all text-white font-semibold text-xs md:text-sm py-2 px-6 md:py-2.5 md:px-8 rounded-md">
-            BUY MORE TOKENS
-          </button>
-        </div>
-      </div>
-
       <IcoRoadmap />
     </section>
   );
