@@ -100,7 +100,7 @@ function Address() {
       <div className="flex flex-col lg:flex-row justify-between mb-14 gap-6 max-sm:mb-9">
         <div className="flex justify-center">
           <img
-            src="/about.png"
+            src="/cool.png"
             className="max-w-full max-h-[350px] md:max-h-[550px]"
             alt="about"
           />

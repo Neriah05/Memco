@@ -5,7 +5,7 @@ import Address from "./MainPage/Address";
 import About from "./MainPage/About";
 import WhitePaper from "./MainPage/WhitePaper";
 import Faq from "./MainPage/Faq";
-import OurTeam from "./MainPage/OurTeam";
+// import OurTeam from "./MainPage/OurTeam";
 import Subscribe from "./MainPage/Subscribe";
 import ContactUs from "./MainPage/ContactUs";
 import Footer from "./MainPage/Footer";
@@ -38,9 +38,9 @@ function WebPage() {
       <section>
         <Faq />
       </section>
-      <section>
+      {/* <section>
         <OurTeam />
-      </section>
+      </section> */}
       <section>
         <Subscribe />
       </section>

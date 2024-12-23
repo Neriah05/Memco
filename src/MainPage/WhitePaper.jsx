@@ -7,16 +7,16 @@ function WhitePaper() {
       >
         <div className="bg-[#1e2739] flex flex-col md:flex-row justify-between p4 md:p-14 max-md:pb-8 relative rounded-t-3xl">
           <img
-            src="/whitepaper1.png"
+            src="/whitewalk.png"
             className="h-[500px] object-contain mb-6 md:mb-0"
             alt="White Paper Illustration"
           />
 
-          <img
+          {/* <img
             src="/trade1.png"
             alt="Trade Icon"
             className="w-32 h-14 translate-y-20 -translate-x-16 mb-6 md:mb-0 max-md:hidden"
-          />
+          /> */}
 
           <div className="pt-20 max-md:px-5">
             <p
