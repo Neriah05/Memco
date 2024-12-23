@@ -34,18 +34,22 @@ function Hero() {
 
         {/* Buttons */}
         <div className="flex sm:flex-row md:justify-center justify-start  lg:justify-start gap-4">
-          <button className="flex gap-2 items-center bg-[#ccffb5] text-[#0d142f] text-sm sm:text-xl font-semibold py-2 px-6 rounded-lg hover:bg-[#a5df8a] transition">
-            <span>
-              <img src="/telegram.png" className="w-6 h-6" alt="" />
-            </span>
-            Telegram
-          </button>
-          <button className="flex gap-2 items-center bg-[#ccffb5] text-[#0d142f] text-sm sm:text-xl font-semibold py-2 px-6 rounded-lg hover:bg-[#a5df8a] transition">
-            <span>
-              <img src="/x.png" className="w-6 h-6" alt="" />
-            </span>
-            Twitter
-          </button>
+          <a href="https://t.me/memeassetreserves">
+            <button className="flex gap-2 items-center bg-[#ccffb5] text-[#0d142f] text-sm sm:text-xl font-semibold py-2 px-6 rounded-lg hover:bg-[#a5df8a] transition">
+              <span>
+                <img src="/telegram.png" className="w-6 h-6" alt="" />
+              </span>
+              Telegram
+            </button>
+          </a>
+          <a href="https://x.com/marscoinonsol?s=21">
+            <button className="flex gap-2 items-center bg-[#ccffb5] text-[#0d142f] text-sm sm:text-xl font-semibold py-2 px-6 rounded-lg hover:bg-[#a5df8a] transition">
+              <span>
+                <img src="/x.png" className="w-6 h-6" alt="" />
+              </span>
+              Twitter
+            </button>
+          </a>
         </div>
       </div>
 
