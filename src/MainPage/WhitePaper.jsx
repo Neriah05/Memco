@@ -7,7 +7,7 @@ function WhitePaper() {
       >
         <div className="bg-[#1e2739] flex flex-col md:flex-row justify-between p4 md:p-14 max-md:pb-8 relative rounded-t-3xl">
           <img
-            src="/whitewalk.png"
+            src="/meme2.gif"
             className="h-[500px] object-contain mb-6 md:mb-0"
             alt="White Paper Illustration"
           />
