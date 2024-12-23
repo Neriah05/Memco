@@ -47,7 +47,7 @@ function Hero() {
               <span>
                 <img src="/x.png" className="w-6 h-6" alt="" />
               </span>
-              exscanner
+              Twitter
             </button>
           </a>
           <a href="https://x.com/marscoinonsol?s=21">
