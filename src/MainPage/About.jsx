@@ -44,7 +44,7 @@ function About() {
             className="text-lg font-extrabold tracking-wide mb-4 text-white text-center"
             style={{ textShadow: "2px 2px 8px rgba(40, 204, 139)" }}
           >
-            About Meme Asset Reserve
+            About Meme Asset Reserves
           </p>
 
           <h1

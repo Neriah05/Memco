@@ -23,7 +23,7 @@ function IcoRoadmap() {
       title: "Expansion",
       description: [
         "Acquire additional meme coins for treasury.",
-        "Distribute airdrops to reward early adopters.",
+        "Distribute future meme coin as airdrop",
         "Launch exclusive merch store.",
       ],
     },
