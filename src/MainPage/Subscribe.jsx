@@ -7,7 +7,7 @@ const Subscribe = () => {
       >
         <div className="bg-black bg-opacity-60 p-8 md:p-16 text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide mb-6 text-white italic max-sm:text-3xl">
-            Don't Miss ICO News And Updates
+            Don't Miss $Mars News And Updates
           </h1>
 
           <p className="text-base sm:text-lg text-[#7d8180] font-medium mb-8 sm:mb-12">
