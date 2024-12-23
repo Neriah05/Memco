@@ -13,7 +13,7 @@ function Hero() {
           className="text-lg italic text-green-400 mb-4"
           style={{ textShadow: "2px 2px 8px rgba(0, 0, 0, 0.9)" }}
         >
-          Catch The Future and Hold More Memecoins
+          Meme Asset Reserves
         </p>
 
         {/* Main Heading */}
@@ -47,7 +47,15 @@ function Hero() {
               <span>
                 <img src="/x.png" className="w-6 h-6" alt="" />
               </span>
-              Twitter
+              exscanner
+            </button>
+          </a>
+          <a href="https://x.com/marscoinonsol?s=21">
+            <button className="flex gap-2 items-center bg-[#ccffb5] text-[#0d142f] text-sm sm:text-xl font-semibold py-2 px-6 rounded-lg hover:bg-[#a5df8a] transition">
+              <span>
+                <img src="/Dexscanner.png" className="w-6 h-6" alt="" />
+              </span>
+              Dexscanner
             </button>
           </a>
         </div>
