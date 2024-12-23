@@ -3,7 +3,7 @@ import IcoRoadmap from "./ShortcutAddress/IcoRoadmap";
 
 function Address() {
   const [copied, setCopied] = useState(false);
-  const smartContractAddress = "pending";
+  const smartContractAddress = "DTaS8MbhXMdegC8wDjxWdDtyhPfa7VvSKLggxPzKpump";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(smartContractAddress);
