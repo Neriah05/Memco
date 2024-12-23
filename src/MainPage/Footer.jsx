@@ -26,19 +26,31 @@ function Footer() {
           {/* Social Icons */}
           <div className="flex justify-center space-x-6 text-2xl text-gray-400">
             <a href="#" className="hover:text-white">
-              <ion-icon name="logo-facebook"></ion-icon>
+              <span className="">
+                <img
+                  className="w-8 h-8 hover:translate-y-1"
+                  src="/Dexscanner.png"
+                  alt=""
+                />
+              </span>
             </a>
             <a href="#" className="hover:text-white">
-              <ion-icon name="logo-twitter"></ion-icon>
+              <span className="">
+                <img
+                  className="w-8 h-8 hover:translate-y-1"
+                  src="/x.png"
+                  alt=""
+                />
+              </span>
             </a>
             <a href="#" className="hover:text-white">
-              <ion-icon name="logo-google"></ion-icon>
-            </a>
-            <a href="#" className="hover:text-white">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-            <a href="#" className="hover:text-white">
-              <ion-icon name="logo-linkedin"></ion-icon>
+              <span className="">
+                <img
+                  className="w-8 h-8 hover:translate-y-1"
+                  src="/telegram1.png"
+                  alt=""
+                />
+              </span>
             </a>
           </div>
         </div>
