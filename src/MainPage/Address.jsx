@@ -131,9 +131,11 @@ function Address() {
             Join the movement.
           </p>
 
-          <button className="bg-[#ccffb5] text-[#0d142f] text-sm md:text-xl font-semibold py-3 px-6 md:py-3.5 md:px-8 rounded-lg hover:bg-[#a5df8a] transition">
-            Buy Now
-          </button>
+          <a href="https://dexscreener.com/solana/5zvpqvfkdjjss3aftrxylm2vnzfj2xazux9knpw8aeem">
+            <button className="bg-[#ccffb5] text-[#0d142f] text-sm md:text-xl font-semibold py-3 px-6 md:py-3.5 md:px-8 rounded-lg hover:bg-[#a5df8a] transition">
+              Buy Now
+            </button>
+          </a>
         </div>
       </div>
 
