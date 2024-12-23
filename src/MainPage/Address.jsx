@@ -93,7 +93,7 @@ function Address() {
       <div className="flex flex-col lg:flex-row justify-between mb-14 gap-6 max-sm:mb-9">
         <div className="flex justify-center">
           <img
-            src="/cool.png"
+            src="/cool.gif"
             className="max-w-full max-h-[350px] md:max-h-[550px]"
             alt="about"
           />
@@ -126,9 +126,9 @@ function Address() {
             currency—it’s a cultural revolution. <br /> <br /> Think of $MARs as
             the central bank of memes, where your holdings represent both
             financial strength and cultural influence. In a world where wealth
-            is a meme, $MARs stands as the king—empowering communities,
-            decentralizing value, and uniting the digital world. Join the
-            movement.
+            is backed by a meme, $MARs stands as the king—empowering
+            communities, decentralizing value, and uniting the digital world.
+            Join the movement.
           </p>
 
           <button className="bg-[#ccffb5] text-[#0d142f] text-sm md:text-xl font-semibold py-3 px-6 md:py-3.5 md:px-8 rounded-lg hover:bg-[#a5df8a] transition">
