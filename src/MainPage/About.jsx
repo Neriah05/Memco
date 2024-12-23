@@ -2,23 +2,33 @@ function About() {
   const tokenData = [
     {
       image: "t1.png",
-      label: "Meme Asset Reserve",
-      value: "Token Symbol $MARs",
+      label: "Token Name",
+      value: "Meme Asset Reserve",
     },
     {
       image: "t2.png",
-      label: "Token Supply",
-      value: "1,000,000,000 LP Burned",
+      label: "Token Symbol",
+      value: "$MARs",
     },
     {
       image: "t3.png",
-      label: "TAX 0%",
-      value: "Made On PUMP.FUN",
+      label: "Token Supply",
+      value: "1,000,000,000",
     },
     {
       image: "t4.png",
-      label: "PreICO price",
-      value: "1 ETH = 2,682 Token",
+      label: "LP",
+      value: "Burned",
+    },
+    {
+      image: "t5.png",
+      label: "TAX",
+      value: "0%",
+    },
+    {
+      image: "t6.png",
+      label: "Made On",
+      value: "PUMP.FUN",
     },
   ];
   return (

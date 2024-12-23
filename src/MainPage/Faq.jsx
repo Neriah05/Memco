@@ -2,24 +2,23 @@ import { useState } from "react";
 function Faq() {
   const faqs = [
     {
-      question: "What are the objectives of this Token?",
+      question: "What is $MARs?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsum sunt accusamus enim necessitatibus est fugiat, assumenda dolorem.",
+        "$MARs is the ultimate reserve for meme wealth, designed to unite the meme coin ecosystem under a single token. It serves as the “central bank of memes,” backed by a treasury of top-performing meme assets, combining cultural clout with financial value.",
     },
     {
-      question: "What is the best features and services we deliver?",
+      question: "How is $MARs launched fairly?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsum sunt accusamus enim necessitatibus est fugiat.",
+        "$MARs is built on fair launch principles, with no private sales, no insider advantages, and a burnt liquidity pool. The contract is renounced, ensuring decentralization with no controlling party.",
     },
     {
-      question: "Why this ICO important to me?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsum sunt accusamus enim necessitatibus est fugiat.",
+      question: "What is the total supply of $MARs?",
+      answer: "The total supply of $MARs is capped at 1 billion tokens. ",
     },
     {
-      question: "How may I take part in and purchase this Token?",
+      question: "How does the MemeDAO Treasury work?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsum sunt accusamus enim necessitatibus est fugiat.",
+        "The MemeDAO Treasury holds a diversified portfolio of top meme coins. Community members use governance features to vote on allocations for marketing, partnerships, and new meme coin acquisitions, ensuring a fully democratic ecosystem.",
     },
   ];
 
@@ -35,11 +34,11 @@ function Faq() {
           className="text-lg font-extrabold tracking-wide mb-4 text-white"
           style={{ textShadow: "2px 2px 8px rgba(40, 204, 139)" }}
         >
-          Token FAQ
+          $MARs FAQ
         </p>
 
         <h1 className="text-4xl font-extrabold tracking-wide mb-7 italic text-white">
-          Frequently Questions
+          Frequently Asked Questions
         </h1>
 
         <p className="text-lg text-[#7d8180] font-semibold mb-14">

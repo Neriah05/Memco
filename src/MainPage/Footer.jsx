@@ -10,9 +10,10 @@ function Footer() {
             </div>
           </div>
           <p className="text-sm text-gray-300">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit
-            ducimus voluptatibus neque illo id repellat quisquam? Autem expedita
-            earum quae laborum ipsum ad.
+            As digital reserves gain momentum, $MARs unites the meme coin
+            ecosystem into one powerful token. Backed by top meme assets, $MARs
+            is more than just currency—it’s the central bank of memes, where
+            wealth meets culture. Join the movement.
           </p>
           <div className="flex space-x-4 mt-4 text-gray-400">
             <a href="#" className="hover:text-white">
