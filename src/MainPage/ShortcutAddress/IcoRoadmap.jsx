@@ -1,49 +1,47 @@
 function IcoRoadmap() {
   const events = [
     {
-      date: "22 Sept 2024",
-      title: "Listing to the major exchanges",
+      date: "Phase 1",
+      title: "Meme Domination",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex at amet massa scelerisque scelerisque. Aliquam erat volutpat.",
+        "Launch and establish $MARs as the central reserve for meme wealth.Secure treasury assets (top meme coins).Engage community with MemeDAO governance.",
     },
     {
-      date: "27 Nov 2024",
-      title: "Platform integration to marketplaces",
+      date: "Phase 2",
+      title: "Growth & Utility",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex at amet massa scelerisque scelerisque. Aliquam erat volutpat.",
+        "Roll out staking utility with yield farming.Introduce periodic buyback and burn mechanisms.Launch play-to-earn (P2E) game.",
     },
     {
-      date: "19 Dec 2024",
-      title: "Crypto Wallet version release",
+      date: "Phase 3",
+      title: "Expansion",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex at amet massa scelerisque scelerisque. Aliquam erat volutpat.",
+        "Acquire additional meme coins for treasury.Distribute airdrops to reward early adopters.Launch exclusive merch store.",
     },
     {
-      date: "25 Jan 2024",
-      title: "Platform earlier version development",
+      date: "Phase 4",
+      title: "Global Adoption",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex at amet massa scelerisque scelerisque. Aliquam erat volutpat.",
+        "Partner with crypto whales, exchanges, and even government agencies.Push $MARs as a universal reserve for memes.",
     },
   ];
   return (
     <div className="max-md:mb-60">
       <div className="text-center">
-        <p
-          className="text-lg font-extrabold tracking-wide mb-4 text-white"
-          style={{ textShadow: "2px 2px 8px rgba(40, 204, 139)" }}
-        >
-          ICO Roadmap
-        </p>
-
         <h1 className="text-4xl font-extrabold tracking-wide mb-7 italic text-white">
-          Our ICO Roadmap
+          Our Roadmap
         </h1>
 
-        <p className="text-lg text-[#7d8180] font-semibold mb-14">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at{" "}
+        <p className="text-lg text-[#7d8180] font-semibold mb-14 text-center">
+          Our roadmap outlines the strategic steps we will take to ensure the
           <br />
-          dictum risus, non suscipit arcu. Quisque aliquam posuere
-          <br /> tortor, sit amet convallis nunc scelerisque in.
+          successful launch and growth of our Initial Coin Offering (ICO).{" "}
+          <br /> It includes clear milestones that guide the development of our
+          project, <br />
+          from concept to implementation. Each stage is carefully planned to{" "}
+          <br />
+          maximize transparency, engagement, and long-term value for our <br />
+          investors and users.
         </p>
       </div>
       return (

@@ -46,7 +46,7 @@ function Hero() {
       {/* Frog Image Section */}
       <div className="z-10 flex-1 flex justify-center items-center">
         <img
-          src="/meme3.gif"
+          src="/meme1.gif"
           alt="Frog Illustration"
           className="w-full max-w-md h-auto"
         />
