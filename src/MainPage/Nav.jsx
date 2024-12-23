@@ -78,7 +78,7 @@ function Nav() {
             Home
           </a>
           <a
-            href="#"
+            href="#about"
             className={`block md:inline-block nav-link ${
               isScrolled ? "text-[#333333]" : "text-white"
             } py-3 px-5 md:py-5 md:px-3 text-lg font-bold letter-spacing hover:text-[#fed136] transition-colors`}
@@ -86,7 +86,7 @@ function Nav() {
             About Us
           </a>
           <a
-            href="#"
+            href="#features"
             className={`block md:inline-block nav-link ${
               isScrolled ? "text-[#333333]" : "text-white"
             } py-3 px-5 md:py-5 md:px-3 text-lg font-bold letter-spacing hover:text-[#fed136] transition-colors`}
@@ -94,7 +94,7 @@ function Nav() {
             Features
           </a>
           <a
-            href="#"
+            href="#faq"
             className={`block md:inline-block nav-link ${
               isScrolled ? "text-[#333333]" : "text-white"
             } py-3 px-5 md:py-5 md:px-3 text-lg font-bold letter-spacing hover:text-[#fed136] transition-colors`}
@@ -102,7 +102,7 @@ function Nav() {
             FAQ
           </a>
           <a
-            href="#"
+            href="#roadmap"
             className={`block md:inline-block nav-link ${
               isScrolled ? "text-[#333333]" : "text-white"
             } py-3 px-5 md:py-5 md:px-3 text-lg font-bold letter-spacing hover:text-[#fed136] transition-colors`}
@@ -110,7 +110,7 @@ function Nav() {
             Roadmap
           </a>
           <a
-            href="#"
+            href="#contact"
             className={`block md:inline-block nav-link ${
               isScrolled ? "text-[#333333]" : "text-white"
             } py-3 px-5 md:py-5 md:px-3 text-lg font-bold letter-spacing hover:text-[#fed136] transition-colors`}

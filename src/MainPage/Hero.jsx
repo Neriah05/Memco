@@ -41,8 +41,8 @@ function Hero() {
             Telegram
           </button>
           <button className="flex gap-2 items-center bg-[#ccffb5] text-[#0d142f] text-sm sm:text-xl font-semibold py-2 px-6 rounded-lg hover:bg-[#a5df8a] transition">
-            <span className="w-6 h-6">
-              <ion-icon name="logo-twitter"></ion-icon>
+            <span>
+              <img src="/x.png" className="w-6 h-6" alt="" />
             </span>
             Twitter
           </button>

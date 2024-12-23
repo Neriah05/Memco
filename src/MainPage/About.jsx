@@ -33,6 +33,7 @@ function About() {
   ];
   return (
     <section
+      id="about"
       className=" relative py-28 bg-cover bg-center h-[1600px] md:h-[950px] flex flex-col lg:flex-row justify-center rounded-3xl"
       style={{ backgroundImage: 'url("/banner-bg.jpg")' }}
     >

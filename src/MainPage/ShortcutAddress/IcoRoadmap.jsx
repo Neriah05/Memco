@@ -38,7 +38,7 @@ function IcoRoadmap() {
   ];
 
   return (
-    <div className="max-md:mb-60">
+    <div id="roadmap" className="max-md:mb-60">
       <div className="text-center">
         <h1 className="text-4xl font-extrabold tracking-wide mb-7 italic text-white">
           Our Roadmap

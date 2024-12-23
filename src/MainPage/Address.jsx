@@ -70,7 +70,7 @@ function Address() {
   ];
 
   return (
-    <section className="bg-[#020a04] p-6 md:p-14 lg:p-28">
+    <section id="address" className="bg-[#020a04] p-6 md:p-14 lg:p-28">
       <div className="bg-[#0d2615] border-2 border-white text-white p-4 md:p-6 rounded-lg shadow-md flex flex-col md:flex-row max-w-full md:max-w-[750px] gap-4 relative mb-14 md:mb-28">
         {/* Copy Icon */}
         <span
@@ -88,13 +88,6 @@ function Address() {
 
         {/* Copied Notification */}
         {copied && <span className="text-[#09BE8B] ml-2">Copied!</span>}
-
-        {/* Image */}
-        <img
-          src="/frog2.png"
-          className="h-20 md:h-28 absolute -top-6 md:-top-9 right-2"
-          alt=""
-        />
       </div>
 
       <div className="flex flex-col lg:flex-row justify-between mb-14 gap-6 max-sm:mb-9">

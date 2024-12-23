@@ -28,7 +28,7 @@ function Faq() {
     setActiveIndex(index === activeIndex ? null : index);
   };
   return (
-    <section className="bg-[#020a08] pt-20">
+    <section id="faq" className="bg-[#020a08] pt-20">
       <div className="text-center">
         <p
           className="text-lg font-extrabold tracking-wide mb-4 text-white"
@@ -47,7 +47,7 @@ function Faq() {
           {/* Left Section */}
           <div className="flex justify-center">
             <img
-              src="faq.png"
+              src="faq.jpg"
               alt="Token Visualization"
               className="max-w-full"
             />
