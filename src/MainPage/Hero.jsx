@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <div
-      className="relative px-6 lg:px-28 bg-cover bg-center md:h-screen h-[950px] flex flex-col lg:flex-row items-center justify-center"
+      className="relative px-6 lg:px-28 bg-cover bg-center md:h-screen h-[1050px] flex flex-col lg:flex-row items-center justify-center"
       style={{ backgroundImage: 'url("/banner-bg.jpg")' }}
     >
       <div className="absolute inset-0 bg-[#004d00] opacity-60"></div>
@@ -33,7 +33,7 @@ function Hero() {
         </p>
 
         {/* Buttons */}
-        <div className="flex sm:flex-row md:justify-center justify-start  lg:justify-start gap-4">
+        <div className="flex flex-wrap gap-4">
           <a href="https://t.me/memeassetreserves">
             <button className="flex gap-2 items-center bg-[#ccffb5] text-[#0d142f] text-sm sm:text-xl font-semibold py-2 px-6 rounded-lg hover:bg-[#a5df8a] transition">
               <span>
@@ -50,14 +50,16 @@ function Hero() {
               Twitter
             </button>
           </a>
-          <a href="https://x.com/marscoinonsol?s=21">
-            <button className="flex gap-2 items-center bg-[#ccffb5] text-[#0d142f] text-sm sm:text-xl font-semibold py-2 px-6 rounded-lg hover:bg-[#a5df8a] transition">
-              <span>
-                <img src="/Dexscanner.png" className="w-6 h-6" alt="" />
-              </span>
-              Dexscanner
-            </button>
-          </a>
+          <div className="w-full sm:w-auto">
+            <a href="https://x.com/marscoinonsol?s=21">
+              <button className="flex gap-2 items-center bg-[#ccffb5] text-[#0d142f] text-sm sm:text-xl font-semibold py-2 px-6 rounded-lg hover:bg-[#a5df8a] transition">
+                <span>
+                  <img src="/Dexscanner.png" className="w-6 h-6" alt="" />
+                </span>
+                Dexscanner
+              </button>
+            </a>
+          </div>
         </div>
       </div>
 

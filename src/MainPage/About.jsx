@@ -54,7 +54,7 @@ function About() {
             Tokenomics
           </h1>
 
-          <p className="text-lg text-[#7d8180] font-semibold mb-4 text-center">
+          <p className="text-lg text-[#eaefee] font-semibold mb-4 text-center">
             $MARs Info The world is shifting to digital reserves, and $MARs is
             leading the way. <br />
             Just like nations and corporations are embracing Bitcoin, $MARs
