@@ -2,58 +2,28 @@ function About() {
   const tokenData = [
     {
       image: "t1.png",
-      label: "Token Name",
-      value: "Crypto Token",
+      label: "Meme Asset Reserve",
+      value: "Token Symbol $MARs",
     },
     {
       image: "t2.png",
-      label: "ICO Pre-sale starts in",
-      value: "June 15-30, 2025",
+      label: "Token Supply",
+      value: "1,000,000,000 LP Burned",
     },
     {
       image: "t3.png",
-      label: "Platform",
-      value: "Ethereum based",
+      label: "TAX 0%",
+      value: "Made On PUMP.FUN",
     },
     {
       image: "t4.png",
       label: "PreICO price",
       value: "1 ETH = 2,682 Token",
     },
-    {
-      image: "t5.png",
-      label: "Price in ICO",
-      value: "1 ETH = 2,182 Token",
-    },
-    {
-      image: "t6.png",
-      label: "Token Soft cap",
-      value: "$18,000,000",
-    },
-    {
-      image: "t7.png",
-      label: "Token Hard Cap",
-      value: "$78,000,000",
-    },
-    {
-      image: "t8.png",
-      label: "Total Supply",
-      value: "250,000,000 Token",
-    },
-    {
-      image: "t9.png",
-      label: "Sold Tokens",
-      value: "49,828,000 Token",
-    },
-    {
-      image: "t8.png",
-      label: "Remaining Tokens",
-      value: "200,182,000 Token",
-    },
   ];
   return (
     <section
-      className=" relative py-28 bg-cover bg-center h-[1600px] md:h-[900px] flex flex-col lg:flex-row justify-center rounded-3xl"
+      className=" relative py-28 bg-cover bg-center h-[1600px] md:h-[950px] flex flex-col lg:flex-row justify-center rounded-3xl"
       style={{ backgroundImage: 'url("/banner-bg.jpg")' }}
     >
       <div className="absolute inset-0 bg-[#004d00] opacity-60"></div>
@@ -74,10 +44,14 @@ function About() {
           </h1>
 
           <p className="text-lg text-[#7d8180] font-semibold mb-4 text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at{" "}
-            <br />
-            dictum risus, non suscipit arcu. Quisque aliquam posuere
-            <br /> tortor, sit amet convallis nunc scelerisque in.
+            $MARs Info The world is shifting to digital reserves, and $MARs is
+            leading the way. <br />
+            Just like nations and corporations are embracing Bitcoin, $MARs
+            unites
+            <br /> the meme coin universe into a single, powerful token. Backed
+            by a <br />
+            treasury of top meme assets, $MARs is more than just <br />
+            currency—it’s a cultural revolution.
           </p>
         </div>
 
