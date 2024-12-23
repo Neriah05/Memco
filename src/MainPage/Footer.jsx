@@ -12,7 +12,7 @@ function Footer() {
 
         {/* Logo and Description */}
         <div className="max-w-2xl space-y-6">
-          <div className="flex justify-center items-center">
+          {/* <div className="flex justify-center items-center">
             <div className="w-14 h-14 bg-yellow-500 rounded-full flex items-center justify-center">
               <span className="text-3xl font-bold">⭐</span>
             </div>
@@ -22,7 +22,7 @@ function Footer() {
             ecosystem into one powerful token. Backed by top meme assets, $MARs
             is more than just currency—it’s the central bank of memes, where
             wealth meets culture. Join the movement.
-          </p>
+          </p> */}
           {/* Social Icons */}
           <div className="flex justify-center space-x-6 text-2xl text-gray-400">
             <a href="#" className="hover:text-white">
