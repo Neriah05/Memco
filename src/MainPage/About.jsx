@@ -33,7 +33,7 @@ function About() {
   ];
   return (
     <section
-      id="about"
+      id="token"
       className=" relative py-28 bg-cover bg-center h-[1600px] md:h-[950px] flex flex-col lg:flex-row justify-center rounded-3xl"
       style={{ backgroundImage: 'url("/banner-bg.jpg")' }}
     >
@@ -51,7 +51,7 @@ function About() {
             className="text-4xl font-extrabold tracking-wide mb-7 italic text-white text-center"
             style={{ textShadow: "7px 7px 1px rgba(38,89,115)" }}
           >
-            $MARs Info
+            Tokenomics
           </h1>
 
           <p className="text-lg text-[#7d8180] font-semibold mb-4 text-center">

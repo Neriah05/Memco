@@ -78,21 +78,14 @@ function Nav() {
             Home
           </a>
           <a
-            href="#about"
+            href="#token"
             className={`block md:inline-block nav-link ${
               isScrolled ? "text-[#333333]" : "text-white"
             } py-3 px-5 md:py-5 md:px-3 text-lg font-bold letter-spacing hover:text-[#fed136] transition-colors`}
           >
-            About Us
+            Tokenomics
           </a>
-          <a
-            href="#features"
-            className={`block md:inline-block nav-link ${
-              isScrolled ? "text-[#333333]" : "text-white"
-            } py-3 px-5 md:py-5 md:px-3 text-lg font-bold letter-spacing hover:text-[#fed136] transition-colors`}
-          >
-            Features
-          </a>
+
           <a
             href="#faq"
             className={`block md:inline-block nav-link ${
@@ -109,20 +102,12 @@ function Nav() {
           >
             Roadmap
           </a>
-          <a
-            href="#contact"
-            className={`block md:inline-block nav-link ${
-              isScrolled ? "text-[#333333]" : "text-white"
-            } py-3 px-5 md:py-5 md:px-3 text-lg font-bold letter-spacing hover:text-[#fed136] transition-colors`}
-          >
-            Contact
-          </a>
         </div>
 
         {/* Contact Us Button */}
         <div className="hidden md:block flex-shrink-0">
           <button className="bg-[#09BE8B] hover:bg-[#FB4E4E] text-white px-6 py-2 rounded-lg">
-            Contact Us
+            Buy $MARs
           </button>
         </div>
       </div>
