@@ -26,10 +26,10 @@ function Hero() {
 
         {/* Subheading */}
         <p className="text-xl sm:text-2xl text-white mb-8">
-          As digital reserves gain momentum, $MARs unites the meme coin
-          ecosystem into one powerful token. Backed by top meme assets, $MARs is
-          more than just currency—it’s the central bank of memes, where wealth
-          meets culture. Join the movement.
+          As the world embraces digital reserves, a visionary tech cult takes
+          over the meme ecosystem with $MARS: Meme Asset Reserves— a single
+          token backed by a treasury of top meme coins, redefining what meme
+          coin power means in the crypto space.
         </p>
 
         {/* Buttons */}

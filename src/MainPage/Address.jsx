@@ -55,7 +55,7 @@ function Address() {
           >
             Jup.ag
           </a>{" "}
-          if you prefer) to be able to swap your $SOL for some $PNUT.
+          if you prefer) to be able to swap your $SOL for some $MARs.
         </>
       ),
       image: "/2.png",
@@ -139,7 +139,7 @@ function Address() {
           </p>
 
           <button className="bg-[#ccffb5] text-[#0d142f] text-sm md:text-xl font-semibold py-3 px-6 md:py-3.5 md:px-8 rounded-lg hover:bg-[#a5df8a] transition">
-            Read More
+            Buy Now
           </button>
         </div>
       </div>

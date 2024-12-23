@@ -23,14 +23,14 @@ function WhitePaper() {
               className="text-lg font-extrabold tracking-wide mb-4 text-white"
               style={{ textShadow: "2px 2px 8px rgba(40, 204, 139, 0.8)" }}
             >
-              Our ICO Whitepaper
+              Join forces with $MARs
             </p>
 
             <h1
               className="text-4xl font-extrabold tracking-wide mb-7 italic text-white"
               style={{ textShadow: "7px 7px 1px rgba(38,89,115, 0.8)" }}
             >
-              Download Our Whitepaper
+              $MARs Mission
             </h1>
 
             <p className="text-xl text-[#7d8180] font-semibold mb-4">
@@ -42,7 +42,7 @@ function WhitePaper() {
 
             <div className="relative pt-5">
               <button className="bg-[#ccffb5] text-[#0d142f] text-xl font-semibold py-3.5 px-8 rounded-lg hover:bg-[#a5df8a] transition">
-                Download Now
+                Join Now
               </button>
 
               <img
