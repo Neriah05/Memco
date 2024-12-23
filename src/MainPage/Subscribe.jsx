@@ -1,4 +1,9 @@
 const Subscribe = () => {
+  const handleSubscribeClick = () => {
+    window.scrollTo(0, 0); // Scroll to the top
+    window.location.reload(); // Reload the page
+  };
+
   return (
     <section className="p-2 md:p-28 bg-gradient-to-b from-[#020a08] to-[#041012]">
       <div
@@ -21,7 +26,10 @@ const Subscribe = () => {
               placeholder="Enter your email"
               className="w-full sm:w-96 py-3 px-6 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ccffb5]"
             />
-            <button className="bg-[#ccffb5] text-[#0d142f] text-xl font-semibold py-3 px-10 rounded-lg hover:bg-[#a5df8a] transition duration-300">
+            <button
+              onClick={handleSubscribeClick}
+              className="bg-[#ccffb5] text-[#0d142f] text-xl font-semibold py-3 px-10 rounded-lg hover:bg-[#a5df8a] transition duration-300"
+            >
               Subscribe
             </button>
           </div>
