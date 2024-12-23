@@ -34,10 +34,9 @@ function WhitePaper() {
             </h1>
 
             <p className="text-xl text-[#7d8180] font-semibold mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-              qui iste asperiores harum maiores praesentium facere ullam
-              blanditiis, odio dolorum. Officia quisquam eaque suscipit facere
-              ducimus, sit quaerat. Numquam, corrupti?
+              Our mission is to redefine wealth in the digital age by uniting
+              the meme coin ecosystem under a single, community-driven token
+              backed by top-performing meme assets.
             </p>
 
             <div className="relative pt-5">
